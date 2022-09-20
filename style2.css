@@ -18,6 +18,10 @@
     outline: 0;
 }
 
+.tt {
+    transform: rotate(90deg);
+}
+
 :root {
     --primary-color: rgb(44, 44, 211);
 }
