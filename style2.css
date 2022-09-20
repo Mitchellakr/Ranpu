@@ -22,6 +22,10 @@
     --primary-color: rgb(44, 44, 211);
 }
 
+hr {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.152);
+}
+
 button {
     color: white;
     background-color: var(--primary-color);
@@ -43,10 +47,6 @@ button {
 .flex {
     display: flex;
     align-items: center;
-}
-
-.flex img {
-    margin-right: .6em;
 }
 
 body {
@@ -106,92 +106,27 @@ main {
     margin: 2em 0;
 }
 
-.modal-content {
+.modal-content,
+.box {
     padding: 1em;
     box-shadow: 0 0 30px rgba(57, 57, 195, 0.061);
 }
 
-.switch {
-    display: flex;
-    justify-items: center;
-    margin-bottom: 1em;
+.box {
+    border-radius: 10px;
 }
 
-.tab-section {
-    padding: 0.35em;
-    background-color: rgb(238, 238, 238);
-}
-
-.tab {
-    display: flex;
-    align-items: center;
-}
-
-.active {
-    background-color: white;
-}
-
-.tablinks {
-    cursor: pointer;
-    padding: .5em 5em;
-}
-
-#tab-1-content,
-#tab-2-content {
-    display: none;
-}
-
-.show {
-    display: block !important;
-}
-
-.modal-content {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-/* this is the exchange section styling */
-
-.exchange h4 {
-    padding: .5em 0;
-}
-
-.exchange p {
-    padding-bottom: .4em;
-}
-
-.form {
-    width: 100%;
-    border-radius: 5px;
-    border: .2px solid rgba(108, 108, 108, 0.227);
-    padding: .7em 1em;
-    margin-bottom: 2em;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-}
-
-.input-img {
-    margin-right: .5px;
-    width: 20px;
-}
-
-.select-payment,
-.summary {
-    justify-content: space-between;
-}
-
-.arrow-down {
-    width: 10px;
+.flip {
+    padding: 1em 0;
+    gap: 3em;
+    justify-content: center;
 }
 
 /* this is the summary section styling */
 
 .summary {
     padding: .2em 0;
+    justify-content: space-between;
 }
 
 .summary-heading {
@@ -199,9 +134,26 @@ main {
     font-size: 1.2em;
 }
 
-.proceed {
-    width: 100%;
-    text-align: center;
-    margin: 1em 0;
-    border-radius: 5px;
+.currencyex {
+    gap: 1em;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.btns {
+    gap: 2em;
+    padding: 2em 0;
+}
+
+.secondary-btn {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 6px;
+    width: 30%;
+}
+
+.buynow {
+    width: 70%;
+    border-radius: 6px;
 }
