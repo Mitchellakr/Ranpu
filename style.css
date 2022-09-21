@@ -40,6 +40,15 @@ button {
     font-family: 'NeueMachinaBold';
 }
 
+p {
+    color: rgba(0, 0, 0, 0.505);
+    font-size: .8em;
+}
+
+.summary h4 {
+    display: ;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -51,6 +60,11 @@ button {
 
 body {
     font-family: 'NeueMachina';
+}
+
+h2 {
+    padding-bottom: .5em;
+    font-size: 1.2em;
 }
 
 /* this is the header styling */
@@ -153,6 +167,10 @@ main {
 
 /* this is the exchange section styling */
 
+.balance {
+    justify-content: space-between;
+}
+
 .exchange h4 {
     padding: .5em 0;
 }
@@ -196,7 +214,6 @@ main {
 
 .summary-heading {
     padding: .5em 0;
-    font-size: 1.2em;
 }
 
 .proceed {
@@ -204,4 +221,13 @@ main {
     text-align: center;
     margin: 1em 0;
     border-radius: 5px;
+}
+
+.total {
+    padding: 1em 0;
+}
+
+.total h3 {
+    font-size: 1.3em;
+    color: var(--primary-color);
 }
